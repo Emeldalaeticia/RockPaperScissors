@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+    
+}
+
+#opponents-choice {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    margin-top: 10px;
+}
+
+#your-choice {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-top: 10px;
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    /*background-color: rgb(147, 11, 238);*/
+    margin-top: 10px;
+    margin: 0 auto; 
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+   
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgba(227, 12, 127, 0.859);
+}
