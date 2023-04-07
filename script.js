@@ -59,4 +59,19 @@ function selectChoice() {
     document.getElementById("your-score").innerText = yourScore;
     document.getElementById("opponents-score").innerText = opponentScore;
 
+    if (yourScore === 5 || opponentScore === 5) {
+        if (yourScore > opponentScore) {
+            document.getElementById("winner").innerText = "You win!";
+        } else if (yourScore < opponentScore) {
+            document.getElementById("winner").innerText = "Opponent wins!";
+        } else {
+            document.getElementById("winner").innerText = "It's a draw!";
+        }
+        
+        yourScore = 0;
+        opponentScore = 0;
+        document.getElementById("your-score").innerText = yourScore;
+        document.getElementById("opponents-score").innerText = opponentScore;
+    
+    }
 }
